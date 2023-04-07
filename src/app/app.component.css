@@ -1,0 +1,30 @@
+h1 {
+    color: red
+}
+
+.header {
+    border:2px solid green
+}
+
+p {
+    color: green
+}
+
+.todo {
+    width:700px;
+    margin: 100px auto;
+    border:1px solid black;
+    padding: 12px;
+}
+
+.todo input {
+    display: inline-block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.todo span {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

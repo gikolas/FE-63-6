@@ -1,0 +1,5 @@
+<div class="list" *ngFor="let item of data">
+    <div class="id">{{item.id}}</div>
+    <div class="text">{{item.name}}</div>
+    <div class="delete" (click)="deleteItem(item.id)">{{item.icon}}</div>
+</div>

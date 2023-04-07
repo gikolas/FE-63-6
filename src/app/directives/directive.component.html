@@ -1,0 +1,33 @@
+<!-- 
+
+1. Structural Directive: {*ngIf, *ngFor, *ngSiwtch}, ყველა რაც იწყებება * ით
+2. Custom Directive  '[appModifier]'
+3. Component Directive: კომპონენტის სელექტორი <app-child></app-child>
+4. Attribute Directive: {[ngStyle], [ngClass], [style.], [class.]}
+
+  -->
+<!-- <h1 *ngIf="!isShow">I Am Directive</h1>
+<div *ngFor="let item of colors" [ngClass]="item"></div>
+
+<p [ngClass]="isShow ? 'red' : ''">some text</p>
+<p [ngStyle]="isShow ? {'color': 'red'} : {'color': 'red', 'backgroundColor': 'green'}">style</p>
+
+
+<p [style.fontSize]="isShow ? '34px' : '45px'">style . </p>
+<p [class.green]="isShow">class . </p> -->
+
+
+<!-- <button (click)="addData()">Click</button> -->
+<!-- 
+<p *ngIf="isShow">I Am P</p>
+<div [ngClass]="isShow ? 'red' : 'green'"></div> -->
+
+<!-- <div class="main">
+    <div *ngFor="let data of divColors" 
+        [ngStyle]="{'color' : data.color, 'backgroundColor': data.backColor}">{{data.text}}</div>
+</div> -->
+
+
+<!-- appModifier არის custom directive -->
+<button (click)="addStorage()">Add Sorage Data</button>
+<p appModifier>Some Directive</p>

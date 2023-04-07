@@ -1,0 +1,20 @@
+.list {
+    display: flex;
+    gap: 4px;
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+}
+
+.id {
+    flex-grow: 1;
+}
+
+.text {
+    flex-grow: 2;
+}
+
+.delete {
+    flex-grow: 6;
+    text-align: right;
+}

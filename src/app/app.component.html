@@ -1,0 +1,26 @@
+<!-- <h1 class="header">Header</h1> -->
+<!-- <button (click)="setMain()">OnClick</button> -->
+<!-- <div class="main">{{cvladi}} <h1>{{title}}</h1></div>
+<app-child></app-child>
+<app-my-component></app-my-component> -->
+
+<!-- <p *ngIf="cvladi === 14">success</p> -->
+<!-- <app-directive></app-directive> -->
+
+
+
+
+<!--  input, output  -->
+<!-- <button (click)="changeData()">Add Data</button>
+<app-child 
+    [x] = "'text'"
+    [id] = "id"
+    [name] = "name"
+    (nameConcatenattion)="emitedData($event)">
+</app-child> -->
+<div class="todo">
+    <input type="text" [formControl]="listItem" (keypress)="onEnter($event)"> <span (click)="addItem()">Add</span>
+    <app-todo
+    [data]="list"
+    (emitDeletingItem) = "deletingId($event)"></app-todo>
+</div>
