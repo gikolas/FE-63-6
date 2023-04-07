@@ -10,6 +10,10 @@ import { MyComponentComponent } from './my-component/my-component.component';
 import { ModifierDirective } from './modifier.directive';
 import { TodoComponent } from './todo/todo.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ParentComponent } from './examples/input/parent/parent.component';
+import { Child1Component } from './examples/input/parent/child1/child1.component';
+import { Child2Component } from './examples/input/parent/child2/child2.component';
+import { Child3Component } from './examples/input/parent/child3/child3.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     MyComponentComponent,
     DirectiveComponent,
     ModifierDirective,
-    TodoComponent
+    TodoComponent,
+    ParentComponent,
+    Child1Component,
+    Child2Component,
+    Child3Component
   ],
   imports: [
     BrowserModule,
